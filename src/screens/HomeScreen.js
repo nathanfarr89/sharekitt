@@ -1,8 +1,14 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View } from "react-native";
+import CampaignList from "../components/CampaignList";
 
 const HomeScreen = () => {
-  return <Text style={styles.text}>HomeScreen</Text>;
+  return (
+    <View>
+      <CampaignList />
+    </View>
+    
+  )
 };
 
 const styles = StyleSheet.create({
